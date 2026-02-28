@@ -1,0 +1,14 @@
+D:\mvc_pelicula\BACKEND\DtoModel\bin\Debug\net9.0\DtoModel.deps.json
+D:\mvc_pelicula\BACKEND\DtoModel\bin\Debug\net9.0\DtoModel.runtimeconfig.json
+D:\mvc_pelicula\BACKEND\DtoModel\bin\Debug\net9.0\DtoModel.dll
+D:\mvc_pelicula\BACKEND\DtoModel\bin\Debug\net9.0\DtoModel.pdb
+D:\mvc_pelicula\BACKEND\DtoModel\obj\Debug\net9.0\DtoModel.csproj.AssemblyReference.cache
+D:\mvc_pelicula\BACKEND\DtoModel\obj\Debug\net9.0\DtoModel.GeneratedMSBuildEditorConfig.editorconfig
+D:\mvc_pelicula\BACKEND\DtoModel\obj\Debug\net9.0\DtoModel.AssemblyInfoInputs.cache
+D:\mvc_pelicula\BACKEND\DtoModel\obj\Debug\net9.0\DtoModel.AssemblyInfo.cs
+D:\mvc_pelicula\BACKEND\DtoModel\obj\Debug\net9.0\DtoModel.csproj.CoreCompileInputs.cache
+D:\mvc_pelicula\BACKEND\DtoModel\obj\Debug\net9.0\DtoModel.dll
+D:\mvc_pelicula\BACKEND\DtoModel\obj\Debug\net9.0\refint\DtoModel.dll
+D:\mvc_pelicula\BACKEND\DtoModel\obj\Debug\net9.0\DtoModel.pdb
+D:\mvc_pelicula\BACKEND\DtoModel\obj\Debug\net9.0\DtoModel.genruntimeconfig.cache
+D:\mvc_pelicula\BACKEND\DtoModel\obj\Debug\net9.0\ref\DtoModel.dll

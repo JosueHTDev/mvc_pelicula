@@ -1,0 +1,14 @@
+D:\mvc_pelicula\BACKEND\Mvc.IBussnies\bin\Debug\net9.0\Mvc.IBussnies.deps.json
+D:\mvc_pelicula\BACKEND\Mvc.IBussnies\bin\Debug\net9.0\Mvc.IBussnies.runtimeconfig.json
+D:\mvc_pelicula\BACKEND\Mvc.IBussnies\bin\Debug\net9.0\Mvc.IBussnies.dll
+D:\mvc_pelicula\BACKEND\Mvc.IBussnies\bin\Debug\net9.0\Mvc.IBussnies.pdb
+D:\mvc_pelicula\BACKEND\Mvc.IBussnies\obj\Debug\net9.0\Mvc.IBussnies.csproj.AssemblyReference.cache
+D:\mvc_pelicula\BACKEND\Mvc.IBussnies\obj\Debug\net9.0\Mvc.IBussnies.GeneratedMSBuildEditorConfig.editorconfig
+D:\mvc_pelicula\BACKEND\Mvc.IBussnies\obj\Debug\net9.0\Mvc.IBussnies.AssemblyInfoInputs.cache
+D:\mvc_pelicula\BACKEND\Mvc.IBussnies\obj\Debug\net9.0\Mvc.IBussnies.AssemblyInfo.cs
+D:\mvc_pelicula\BACKEND\Mvc.IBussnies\obj\Debug\net9.0\Mvc.IBussnies.csproj.CoreCompileInputs.cache
+D:\mvc_pelicula\BACKEND\Mvc.IBussnies\obj\Debug\net9.0\Mvc.IBussnies.dll
+D:\mvc_pelicula\BACKEND\Mvc.IBussnies\obj\Debug\net9.0\refint\Mvc.IBussnies.dll
+D:\mvc_pelicula\BACKEND\Mvc.IBussnies\obj\Debug\net9.0\Mvc.IBussnies.pdb
+D:\mvc_pelicula\BACKEND\Mvc.IBussnies\obj\Debug\net9.0\Mvc.IBussnies.genruntimeconfig.cache
+D:\mvc_pelicula\BACKEND\Mvc.IBussnies\obj\Debug\net9.0\ref\Mvc.IBussnies.dll
