@@ -17,3 +17,4 @@ D:\mvc_pelicula\BACKEND\Mvc.Repository\obj\Debug\net9.0\refint\Mvc.Repository.dl
 D:\mvc_pelicula\BACKEND\Mvc.Repository\obj\Debug\net9.0\Mvc.Repository.pdb
 D:\mvc_pelicula\BACKEND\Mvc.Repository\obj\Debug\net9.0\Mvc.Repository.genruntimeconfig.cache
 D:\mvc_pelicula\BACKEND\Mvc.Repository\obj\Debug\net9.0\ref\Mvc.Repository.dll
+D:\mvc_pelicula\BACKEND\Mvc.Repository\obj\Debug\net9.0\Mvc.Repository.sourcelink.json

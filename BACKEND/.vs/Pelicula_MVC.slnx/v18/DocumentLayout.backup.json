@@ -1,0 +1,224 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\mvc_pelicula\\BACKEND\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{86FBC408-C88A-B278-5AB9-9B2029E801DF}|Mvc.Api\\Mvc.Api.csproj|d:\\mvc_pelicula\\backend\\mvc.api\\controllers\\generopeliculacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86FBC408-C88A-B278-5AB9-9B2029E801DF}|Mvc.Api\\Mvc.Api.csproj|solutionrelative:mvc.api\\controllers\\generopeliculacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54DFA512-8285-62ED-3AB7-92EE6610F71E}|Mvc.Bussnies\\Mvc.Bussnies.csproj|d:\\mvc_pelicula\\backend\\mvc.bussnies\\generopeliculab\\igeneropeliculabussnies.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54DFA512-8285-62ED-3AB7-92EE6610F71E}|Mvc.Bussnies\\Mvc.Bussnies.csproj|solutionrelative:mvc.bussnies\\generopeliculab\\igeneropeliculabussnies.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54DFA512-8285-62ED-3AB7-92EE6610F71E}|Mvc.Bussnies\\Mvc.Bussnies.csproj|d:\\mvc_pelicula\\backend\\mvc.bussnies\\mvc.bussnies.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{54DFA512-8285-62ED-3AB7-92EE6610F71E}|Mvc.Bussnies\\Mvc.Bussnies.csproj|solutionrelative:mvc.bussnies\\mvc.bussnies.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6AD2DB3A-3810-7829-9F74-36513E5527CF}|Mvc.Repository\\Mvc.Repository.csproj|d:\\mvc_pelicula\\backend\\mvc.repository\\generopelicularepo\\implementacion\\generopelicularepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6AD2DB3A-3810-7829-9F74-36513E5527CF}|Mvc.Repository\\Mvc.Repository.csproj|solutionrelative:mvc.repository\\generopelicularepo\\implementacion\\generopelicularepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86FBC408-C88A-B278-5AB9-9B2029E801DF}|Mvc.Api\\Mvc.Api.csproj|d:\\mvc_pelicula\\backend\\mvc.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86FBC408-C88A-B278-5AB9-9B2029E801DF}|Mvc.Api\\Mvc.Api.csproj|solutionrelative:mvc.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54DFA512-8285-62ED-3AB7-92EE6610F71E}|Mvc.Bussnies\\Mvc.Bussnies.csproj|d:\\mvc_pelicula\\backend\\mvc.bussnies\\generopeliculab\\generopeliculabussnies.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54DFA512-8285-62ED-3AB7-92EE6610F71E}|Mvc.Bussnies\\Mvc.Bussnies.csproj|solutionrelative:mvc.bussnies\\generopeliculab\\generopeliculabussnies.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6AD2DB3A-3810-7829-9F74-36513E5527CF}|Mvc.Repository\\Mvc.Repository.csproj|d:\\mvc_pelicula\\backend\\mvc.repository\\generopelicularepo\\mapping\\generopeliculamapping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6AD2DB3A-3810-7829-9F74-36513E5527CF}|Mvc.Repository\\Mvc.Repository.csproj|solutionrelative:mvc.repository\\generopelicularepo\\mapping\\generopeliculamapping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6AD2DB3A-3810-7829-9F74-36513E5527CF}|Mvc.Repository\\Mvc.Repository.csproj|d:\\mvc_pelicula\\backend\\mvc.repository\\pelicularepo\\implementacion\\pelicularepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6AD2DB3A-3810-7829-9F74-36513E5527CF}|Mvc.Repository\\Mvc.Repository.csproj|solutionrelative:mvc.repository\\pelicularepo\\implementacion\\pelicularepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6AD2DB3A-3810-7829-9F74-36513E5527CF}|Mvc.Repository\\Mvc.Repository.csproj|d:\\mvc_pelicula\\backend\\mvc.repository\\generopelicularepo\\contratos\\igeneropelicularepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6AD2DB3A-3810-7829-9F74-36513E5527CF}|Mvc.Repository\\Mvc.Repository.csproj|solutionrelative:mvc.repository\\generopelicularepo\\contratos\\igeneropelicularepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{957FA60D-03AB-33AF-EC45-075E04602035}|DtoModel\\DtoModel.csproj|d:\\mvc_pelicula\\backend\\dtomodel\\pelicula\\generopeliculadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{957FA60D-03AB-33AF-EC45-075E04602035}|DtoModel\\DtoModel.csproj|solutionrelative:dtomodel\\pelicula\\generopeliculadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6AD2DB3A-3810-7829-9F74-36513E5527CF}|Mvc.Repository\\Mvc.Repository.csproj|d:\\mvc_pelicula\\backend\\mvc.repository\\pelicularepo\\mapping\\peliculamapping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6AD2DB3A-3810-7829-9F74-36513E5527CF}|Mvc.Repository\\Mvc.Repository.csproj|solutionrelative:mvc.repository\\pelicularepo\\mapping\\peliculamapping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6AD2DB3A-3810-7829-9F74-36513E5527CF}|Mvc.Repository\\Mvc.Repository.csproj|d:\\mvc_pelicula\\backend\\mvc.repository\\pelicularepo\\contratos\\ipelicularepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6AD2DB3A-3810-7829-9F74-36513E5527CF}|Mvc.Repository\\Mvc.Repository.csproj|solutionrelative:mvc.repository\\pelicularepo\\contratos\\ipelicularepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "GeneroPeliculaBussnies.cs",
+              "DocumentMoniker": "D:\\mvc_pelicula\\BACKEND\\Mvc.Bussnies\\GeneroPeliculaB\\GeneroPeliculaBussnies.cs",
+              "RelativeDocumentMoniker": "Mvc.Bussnies\\GeneroPeliculaB\\GeneroPeliculaBussnies.cs",
+              "ToolTip": "D:\\mvc_pelicula\\BACKEND\\Mvc.Bussnies\\GeneroPeliculaB\\GeneroPeliculaBussnies.cs",
+              "RelativeToolTip": "Mvc.Bussnies\\GeneroPeliculaB\\GeneroPeliculaBussnies.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABcAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-01T00:31:12.858Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IGeneroPeliculaBussnies.cs",
+              "DocumentMoniker": "D:\\mvc_pelicula\\BACKEND\\Mvc.Bussnies\\GeneroPeliculaB\\IGeneroPeliculaBussnies.cs",
+              "RelativeDocumentMoniker": "Mvc.Bussnies\\GeneroPeliculaB\\IGeneroPeliculaBussnies.cs",
+              "ToolTip": "D:\\mvc_pelicula\\BACKEND\\Mvc.Bussnies\\GeneroPeliculaB\\IGeneroPeliculaBussnies.cs",
+              "RelativeToolTip": "Mvc.Bussnies\\GeneroPeliculaB\\IGeneroPeliculaBussnies.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-01T00:30:44.442Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Mvc.Bussnies",
+              "DocumentMoniker": "D:\\mvc_pelicula\\BACKEND\\Mvc.Bussnies\\Mvc.Bussnies.csproj",
+              "RelativeDocumentMoniker": "Mvc.Bussnies\\Mvc.Bussnies.csproj",
+              "ToolTip": "D:\\mvc_pelicula\\BACKEND\\Mvc.Bussnies\\Mvc.Bussnies.csproj",
+              "RelativeToolTip": "Mvc.Bussnies\\Mvc.Bussnies.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-03-01T00:29:02.858Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "GeneroPeliculaRepository.cs",
+              "DocumentMoniker": "D:\\mvc_pelicula\\BACKEND\\Mvc.Repository\\GeneroPeliculaRepo\\Implementacion\\GeneroPeliculaRepository.cs",
+              "RelativeDocumentMoniker": "Mvc.Repository\\GeneroPeliculaRepo\\Implementacion\\GeneroPeliculaRepository.cs",
+              "ToolTip": "D:\\mvc_pelicula\\BACKEND\\Mvc.Repository\\GeneroPeliculaRepo\\Implementacion\\GeneroPeliculaRepository.cs",
+              "RelativeToolTip": "Mvc.Repository\\GeneroPeliculaRepo\\Implementacion\\GeneroPeliculaRepository.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAgwCMAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-01T00:17:14.681Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GeneroPeliculaController.cs",
+              "DocumentMoniker": "D:\\mvc_pelicula\\BACKEND\\Mvc.Api\\Controllers\\GeneroPeliculaController.cs",
+              "RelativeDocumentMoniker": "Mvc.Api\\Controllers\\GeneroPeliculaController.cs",
+              "ToolTip": "D:\\mvc_pelicula\\BACKEND\\Mvc.Api\\Controllers\\GeneroPeliculaController.cs",
+              "RelativeToolTip": "Mvc.Api\\Controllers\\GeneroPeliculaController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-28T23:50:39.162Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\mvc_pelicula\\BACKEND\\Mvc.Api\\Program.cs",
+              "RelativeDocumentMoniker": "Mvc.Api\\Program.cs",
+              "ToolTip": "D:\\mvc_pelicula\\BACKEND\\Mvc.Api\\Program.cs",
+              "RelativeToolTip": "Mvc.Api\\Program.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-01T00:43:59.36Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "GeneroPeliculaMapping.cs",
+              "DocumentMoniker": "D:\\mvc_pelicula\\BACKEND\\Mvc.Repository\\GeneroPeliculaRepo\\Mapping\\GeneroPeliculaMapping.cs",
+              "RelativeDocumentMoniker": "Mvc.Repository\\GeneroPeliculaRepo\\Mapping\\GeneroPeliculaMapping.cs",
+              "ToolTip": "D:\\mvc_pelicula\\BACKEND\\Mvc.Repository\\GeneroPeliculaRepo\\Mapping\\GeneroPeliculaMapping.cs",
+              "RelativeToolTip": "Mvc.Repository\\GeneroPeliculaRepo\\Mapping\\GeneroPeliculaMapping.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-01T00:07:21.321Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IGeneroPeliculaRepository.cs",
+              "DocumentMoniker": "D:\\mvc_pelicula\\BACKEND\\Mvc.Repository\\GeneroPeliculaRepo\\Contratos\\IGeneroPeliculaRepository.cs",
+              "RelativeDocumentMoniker": "Mvc.Repository\\GeneroPeliculaRepo\\Contratos\\IGeneroPeliculaRepository.cs",
+              "ToolTip": "D:\\mvc_pelicula\\BACKEND\\Mvc.Repository\\GeneroPeliculaRepo\\Contratos\\IGeneroPeliculaRepository.cs",
+              "RelativeToolTip": "Mvc.Repository\\GeneroPeliculaRepo\\Contratos\\IGeneroPeliculaRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-01T00:04:22.845Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "GeneroPeliculaDto.cs",
+              "DocumentMoniker": "D:\\mvc_pelicula\\BACKEND\\DtoModel\\Pelicula\\GeneroPeliculaDto.cs",
+              "RelativeDocumentMoniker": "DtoModel\\Pelicula\\GeneroPeliculaDto.cs",
+              "ToolTip": "D:\\mvc_pelicula\\BACKEND\\DtoModel\\Pelicula\\GeneroPeliculaDto.cs",
+              "RelativeToolTip": "DtoModel\\Pelicula\\GeneroPeliculaDto.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA4AAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-28T23:55:00.39Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "PeliculaRepository.cs",
+              "DocumentMoniker": "D:\\mvc_pelicula\\BACKEND\\Mvc.Repository\\PeliculaRepo\\Implementacion\\PeliculaRepository.cs",
+              "RelativeDocumentMoniker": "Mvc.Repository\\PeliculaRepo\\Implementacion\\PeliculaRepository.cs",
+              "ToolTip": "D:\\mvc_pelicula\\BACKEND\\Mvc.Repository\\PeliculaRepo\\Implementacion\\PeliculaRepository.cs",
+              "RelativeToolTip": "Mvc.Repository\\PeliculaRepo\\Implementacion\\PeliculaRepository.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAgwCgAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-28T23:31:06.25Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "IPeliculaRepository.cs",
+              "DocumentMoniker": "D:\\mvc_pelicula\\BACKEND\\Mvc.Repository\\PeliculaRepo\\Contratos\\IPeliculaRepository.cs",
+              "RelativeDocumentMoniker": "Mvc.Repository\\PeliculaRepo\\Contratos\\IPeliculaRepository.cs",
+              "ToolTip": "D:\\mvc_pelicula\\BACKEND\\Mvc.Repository\\PeliculaRepo\\Contratos\\IPeliculaRepository.cs",
+              "RelativeToolTip": "Mvc.Repository\\PeliculaRepo\\Contratos\\IPeliculaRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-28T23:30:54.986Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "PeliculaMapping.cs",
+              "DocumentMoniker": "D:\\mvc_pelicula\\BACKEND\\Mvc.Repository\\PeliculaRepo\\Mapping\\PeliculaMapping.cs",
+              "RelativeDocumentMoniker": "Mvc.Repository\\PeliculaRepo\\Mapping\\PeliculaMapping.cs",
+              "ToolTip": "D:\\mvc_pelicula\\BACKEND\\Mvc.Repository\\PeliculaRepo\\Mapping\\PeliculaMapping.cs",
+              "RelativeToolTip": "Mvc.Repository\\PeliculaRepo\\Mapping\\PeliculaMapping.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAYwDgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-28T23:31:27.226Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

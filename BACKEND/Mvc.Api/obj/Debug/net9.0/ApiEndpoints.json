@@ -1,5 +1,25 @@
 [
   {
+    "ContainingType": "Mvc.Api.Controllers.GeneroPeliculaController",
+    "Method": "Get",
+    "RelativePath": "api/GeneroPelicula",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[DtoModel.Pelicula.GeneroPeliculaDto, DtoModel, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
     "ContainingType": "Mvc.Api.Controllers.PeliculaController",
     "Method": "GetAll",
     "RelativePath": "api/Pelicula",

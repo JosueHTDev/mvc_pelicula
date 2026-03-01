@@ -10,12 +10,6 @@ namespace Mvc.Repository.PeliculaRepo.Mapping
 {
     public static class PeliculaMapping
     {
-
-        /// <summary>
-        /// Cambia el objeto Persona a PersonaDto para ser utilizado en la capa de servicio o presentación
-        /// </summary>
-        /// <param name="pelicula"></param>
-        /// <returns></returns>
         public static PeliculaDto ToDto(this Pelicula peli)
         {
             return new PeliculaDto
@@ -34,11 +28,6 @@ namespace Mvc.Repository.PeliculaRepo.Mapping
             };
         }
 
-        /// <summary>
-        /// Cambia el objeto PersonaDto a Persona para ser utilizado en la capa de acceso a datos
-        /// </summary>
-        /// <param name="peliculaDto"></param>
-        /// <returns></returns>
         public static Pelicula ToEntity(this PeliculaDto dto)
         {
             return new Pelicula

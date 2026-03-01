@@ -1,1 +1,1 @@
-Scaffold-DbContext "name=demoDb" Pomelo.EntityFrameworkCore.MySql -OutputDir "demo_db" -DataAnnotations -Context "_demoContext" -NoPluralize -Force
+Scaffold-DbContext "name=cineDb" Pomelo.EntityFrameworkCore.MySql -OutputDir "cine_db" -DataAnnotations -Context "_cineContext" -NoPluralize -Force

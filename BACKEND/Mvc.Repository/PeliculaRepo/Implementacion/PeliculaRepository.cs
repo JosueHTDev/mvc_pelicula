@@ -57,14 +57,12 @@ namespace Mvc.Repository.PeliculaRepo.Implementacion
             var peli = await _db.Pelicula.FindAsync(request.Id);
             try
             {
-                // Obtener la entidad existente desde la base de datos
 
                 if (peli == null)
                 {
                     throw new Exception("Pelicula no encontrada");
                 }
 
-                // Actualizar las propiedades
                 peli.IdGeneroPelicula = request.IdGeneroPelicula;
                 peli.Titulo = request.Titulo;
                 peli.Director = request.Director;
@@ -86,7 +84,3 @@ namespace Mvc.Repository.PeliculaRepo.Implementacion
         }
     }
 }
-
-
-// programación en segundo plano
-// programación en hilos

@@ -21,3 +21,4 @@ D:\mvc_pelicula\BACKEND\Mvc.Bussnies\obj\Debug\net9.0\refint\Mvc.Bussnies.dll
 D:\mvc_pelicula\BACKEND\Mvc.Bussnies\obj\Debug\net9.0\Mvc.Bussnies.pdb
 D:\mvc_pelicula\BACKEND\Mvc.Bussnies\obj\Debug\net9.0\Mvc.Bussnies.genruntimeconfig.cache
 D:\mvc_pelicula\BACKEND\Mvc.Bussnies\obj\Debug\net9.0\ref\Mvc.Bussnies.dll
+D:\mvc_pelicula\BACKEND\Mvc.Bussnies\obj\Debug\net9.0\Mvc.Bussnies.sourcelink.json

@@ -12,3 +12,4 @@ D:\mvc_pelicula\BACKEND\DbModel\obj\Debug\net9.0\refint\DbModel.dll
 D:\mvc_pelicula\BACKEND\DbModel\obj\Debug\net9.0\DbModel.pdb
 D:\mvc_pelicula\BACKEND\DbModel\obj\Debug\net9.0\DbModel.genruntimeconfig.cache
 D:\mvc_pelicula\BACKEND\DbModel\obj\Debug\net9.0\ref\DbModel.dll
+D:\mvc_pelicula\BACKEND\DbModel\obj\Debug\net9.0\DbModel.sourcelink.json

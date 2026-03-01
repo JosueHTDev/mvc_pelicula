@@ -139,3 +139,4 @@ D:\mvc_pelicula\BACKEND\Mvc.Api\obj\Debug\net9.0\refint\Mvc.Api.dll
 D:\mvc_pelicula\BACKEND\Mvc.Api\obj\Debug\net9.0\Mvc.Api.pdb
 D:\mvc_pelicula\BACKEND\Mvc.Api\obj\Debug\net9.0\Mvc.Api.genruntimeconfig.cache
 D:\mvc_pelicula\BACKEND\Mvc.Api\obj\Debug\net9.0\ref\Mvc.Api.dll
+D:\mvc_pelicula\BACKEND\Mvc.Api\obj\Debug\net9.0\Mvc.Api.sourcelink.json

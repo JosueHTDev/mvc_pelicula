@@ -12,3 +12,4 @@ D:\mvc_pelicula\BACKEND\DtoModel\obj\Debug\net9.0\refint\DtoModel.dll
 D:\mvc_pelicula\BACKEND\DtoModel\obj\Debug\net9.0\DtoModel.pdb
 D:\mvc_pelicula\BACKEND\DtoModel\obj\Debug\net9.0\DtoModel.genruntimeconfig.cache
 D:\mvc_pelicula\BACKEND\DtoModel\obj\Debug\net9.0\ref\DtoModel.dll
+D:\mvc_pelicula\BACKEND\DtoModel\obj\Debug\net9.0\DtoModel.sourcelink.json

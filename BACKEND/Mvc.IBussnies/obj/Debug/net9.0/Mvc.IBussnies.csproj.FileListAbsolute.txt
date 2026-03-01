@@ -12,3 +12,4 @@ D:\mvc_pelicula\BACKEND\Mvc.IBussnies\obj\Debug\net9.0\refint\Mvc.IBussnies.dll
 D:\mvc_pelicula\BACKEND\Mvc.IBussnies\obj\Debug\net9.0\Mvc.IBussnies.pdb
 D:\mvc_pelicula\BACKEND\Mvc.IBussnies\obj\Debug\net9.0\Mvc.IBussnies.genruntimeconfig.cache
 D:\mvc_pelicula\BACKEND\Mvc.IBussnies\obj\Debug\net9.0\ref\Mvc.IBussnies.dll
+D:\mvc_pelicula\BACKEND\Mvc.IBussnies\obj\Debug\net9.0\Mvc.IBussnies.sourcelink.json

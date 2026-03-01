@@ -1,6 +1,9 @@
 using DbModel.cineDb;
 using Microsoft.EntityFrameworkCore;
+using Mvc.Bussnies.GeneroPeliculaB;
 using Mvc.Bussnies.Pelicula;
+using Mvc.Repository.GeneroPeliculaRepo.Contratos;
+using Mvc.Repository.GeneroPeliculaRepo.Implementacion;
 using Mvc.Repository.PeliculaRepo.Contratos;
 using Mvc.Repository.PeliculaRepo.Implementacion;
 
@@ -18,9 +21,10 @@ builder.Services.AddDbContext<_cineContext>(options =>
 
 // Inyección de dependencias - Repositories
 builder.Services.AddScoped<IPeliculaRepository, PeliculaRepository>();
-
-// Inyección de dependencias - Business Logic
 builder.Services.AddScoped<IPeliculaBussnies, PeliculaBussnies>();
+
+builder.Services.AddScoped<IGeneroPeliculaRepository, GeneroPeliculaRepository>();
+builder.Services.AddScoped<IGeneroPeliculaBussnies, GeneroPeliculaBussnies>();
 
 // Configurar CORS
 builder.Services.AddCors(options =>
