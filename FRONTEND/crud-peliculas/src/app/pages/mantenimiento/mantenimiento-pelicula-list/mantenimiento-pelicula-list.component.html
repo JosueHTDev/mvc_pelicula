@@ -1,0 +1,100 @@
+<div class="container py-4">
+
+  <div class="d-flex align-items-center justify-content-between mb-4">
+    <div>
+      <h1 class="h3 fw-bold mb-0">Películas</h1>
+      <p class="text-muted small mb-0">Gestión del catálogo de películas</p>
+    </div>
+    <button type="button" class="btn btn-primary" (click)="abrirAgregar()">
+      <span class="me-1">＋</span> Nueva película
+    </button>
+  </div>
+
+  <div class="card card-filtros mb-4">
+    <div class="card-body py-3">
+      <form class="row g-3 align-items-end" aria-label="Filtros de búsqueda de películas">
+        <div class="col-12 col-md-5">
+          <label for="filtroTitulo" class="form-label fw-semibold">Título</label>
+          <input id="filtroTitulo" type="text" class="form-control input-custom" placeholder="Buscar por título..." />
+        </div>
+        <div class="col-12 col-md-5">
+          <label for="filtroDirector" class="form-label fw-semibold">Director</label>
+          <input id="filtroDirector" type="text" class="form-control input-custom" placeholder="Buscar por director..." />
+        </div>
+        <div class="col-12 col-md-2 d-flex gap-2">
+          <button type="button" class="btn btn-primary w-100">Buscar</button>
+          <button type="button" class="btn btn-outline-secondary w-100">Limpiar</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <div class="card card-tabla">
+    <div class="card-body p-0">
+      <div class="table-responsive">
+        <table class="table tabla-peliculas mb-0">
+          <thead>
+            <tr>
+              <th>#</th>
+              <th>Título</th>
+              <th>Director</th>
+              <th>Año</th>
+              <th>Duración</th>
+              <th>Género</th>
+              <th class="text-center">Acciones</th>
+            </tr>
+          </thead>
+          <tbody>
+            @for (pelicula of peliculas(); track pelicula.id) {
+            <tr>
+              <td class="text-muted small">{{ pelicula.id }}</td>
+              <td class="fw-semibold">{{ pelicula.titulo }}</td>
+              <td>{{ pelicula.director }}</td>
+              <td>
+                <span class="badge badge-anio">{{ pelicula.anioEstreno }}</span>
+              </td>
+              <td>
+                <span class="duracion">⏱ {{ pelicula.duracionMinutos }} min</span>
+              </td>
+              <td>
+                <span class="badge badge-genero">Género {{ pelicula.idGeneroPelicula }}</span>
+              </td>
+              <td class="text-center acciones-col">
+                <button type="button" class="btn btn-accion btn-editar me-2" (click)="abrirEditar(pelicula)">
+                  ✏️ Editar
+                </button>
+                <button type="button" class="btn btn-accion btn-eliminar" (click)="eliminarPelicula(pelicula)">
+                  🗑️ Eliminar
+                </button>
+              </td>
+            </tr>
+            } @empty {
+            <tr>
+              <td colspan="7">
+                <div class="empty-state">
+                  <div class="empty-icono">🎥</div>
+                  <p class="empty-texto">No hay películas registradas aún.</p>
+                  <button type="button" class="btn btn-agregar" (click)="abrirAgregar()">Agregar la primera</button>
+                </div>
+              </td>
+            </tr>
+            }
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+@if (mostrarModal) {
+  <div class="modal-overlay" (click)="cerrarModal()"></div>
+  <div class="modal-panel" role="dialog" aria-modal="true" aria-label="Formulario de película">
+    <app-mantenimiento-pelicula-editar
+      [pelicula]="peliculaSeleccionada"
+      [modo]="modoEdicion"
+      (cancelado)="cerrarModal()"
+      (guardado)="onGuardado()"
+    />
+  </div>
+}

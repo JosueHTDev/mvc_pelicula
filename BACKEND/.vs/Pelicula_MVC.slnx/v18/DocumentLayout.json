@@ -70,8 +70,7 @@
               "RelativeToolTip": "Mvc.Bussnies\\GeneroPeliculaB\\GeneroPeliculaBussnies.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAAAAABcAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-01T00:31:12.858Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-01T00:31:12.858Z"
             },
             {
               "$type": "Document",
@@ -83,21 +82,19 @@
               "RelativeToolTip": "Mvc.Bussnies\\GeneroPeliculaB\\IGeneroPeliculaBussnies.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-01T00:30:44.442Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-01T00:30:44.442Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Mvc.Bussnies",
+              "Title": "Mvc.Bussnies.csproj",
               "DocumentMoniker": "D:\\mvc_pelicula\\BACKEND\\Mvc.Bussnies\\Mvc.Bussnies.csproj",
               "RelativeDocumentMoniker": "Mvc.Bussnies\\Mvc.Bussnies.csproj",
               "ToolTip": "D:\\mvc_pelicula\\BACKEND\\Mvc.Bussnies\\Mvc.Bussnies.csproj",
               "RelativeToolTip": "Mvc.Bussnies\\Mvc.Bussnies.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-03-01T00:29:02.858Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-01T00:29:02.858Z"
             },
             {
               "$type": "Document",
@@ -109,8 +106,7 @@
               "RelativeToolTip": "Mvc.Repository\\GeneroPeliculaRepo\\Implementacion\\GeneroPeliculaRepository.cs",
               "ViewState": "AgIAAB0AAAAAAAAAAAAgwCMAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-01T00:17:14.681Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-01T00:17:14.681Z"
             },
             {
               "$type": "Document",
@@ -135,8 +131,7 @@
               "RelativeToolTip": "Mvc.Api\\Program.cs",
               "ViewState": "AgIAABIAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-01T00:43:59.36Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-01T00:43:59.36Z"
             },
             {
               "$type": "Document",
@@ -148,8 +143,7 @@
               "RelativeToolTip": "Mvc.Repository\\GeneroPeliculaRepo\\Mapping\\GeneroPeliculaMapping.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-01T00:07:21.321Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-01T00:07:21.321Z"
             },
             {
               "$type": "Document",
@@ -161,8 +155,7 @@
               "RelativeToolTip": "Mvc.Repository\\GeneroPeliculaRepo\\Contratos\\IGeneroPeliculaRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-01T00:04:22.845Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-01T00:04:22.845Z"
             },
             {
               "$type": "Document",
@@ -174,8 +167,7 @@
               "RelativeToolTip": "DtoModel\\Pelicula\\GeneroPeliculaDto.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAA4AAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-28T23:55:00.39Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-28T23:55:00.39Z"
             },
             {
               "$type": "Document",
@@ -187,8 +179,7 @@
               "RelativeToolTip": "Mvc.Repository\\PeliculaRepo\\Implementacion\\PeliculaRepository.cs",
               "ViewState": "AgIAAB0AAAAAAAAAAAAgwCgAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-28T23:31:06.25Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-28T23:31:06.25Z"
             },
             {
               "$type": "Document",
@@ -200,8 +191,7 @@
               "RelativeToolTip": "Mvc.Repository\\PeliculaRepo\\Contratos\\IPeliculaRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-28T23:30:54.986Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-28T23:30:54.986Z"
             },
             {
               "$type": "Document",
@@ -213,8 +203,7 @@
               "RelativeToolTip": "Mvc.Repository\\PeliculaRepo\\Mapping\\PeliculaMapping.cs",
               "ViewState": "AgIAAC0AAAAAAAAAAAAYwDgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-28T23:31:27.226Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-28T23:31:27.226Z"
             }
           ]
         }

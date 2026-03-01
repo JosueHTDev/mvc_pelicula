@@ -1,0 +1,140 @@
+/* ── WRAPPER ───────────────────────────────────────────── */
+.form-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+/* ── HEADER ────────────────────────────────────────────── */
+.form-header {
+  display: flex;
+  align-items: center;
+  gap: 0.85rem;
+  padding: 1.4rem 1.6rem 1.2rem;
+  border-bottom: 1px solid #f3f4f6;
+  position: relative;
+}
+
+.form-header-icono {
+  font-size: 2rem;
+  line-height: 1;
+  flex-shrink: 0;
+}
+
+.form-titulo {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #111827;
+  margin: 0;
+}
+
+.form-subtitulo {
+  font-size: 0.8rem;
+  color: #9ca3af;
+  margin: 0;
+}
+
+.btn-cerrar {
+  position: absolute;
+  top: 1rem;
+  right: 1.2rem;
+  background: #f3f4f6;
+  border: none;
+  border-radius: 8px;
+  width: 30px;
+  height: 30px;
+  font-size: 0.8rem;
+  color: #6b7280;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.15s, color 0.15s;
+}
+
+.btn-cerrar:hover {
+  background: #fee2e2;
+  color: #dc2626;
+}
+
+.form-body {
+  padding: 1.4rem 1.6rem;
+}
+
+.field-label {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: #374151;
+  margin-bottom: 0.35rem;
+  display: block;
+}
+
+.required {
+  color: #ef4444;
+}
+
+.field-input {
+  border-radius: 9px;
+  border: 1.5px solid #d1d5db;
+  font-size: 0.9rem;
+  padding: 0.55rem 0.85rem;
+  transition: border-color 0.2s, box-shadow 0.2s;
+  color: #111827;
+}
+
+.field-input:focus {
+  border-color: #6366f1;
+  box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.15);
+  outline: none;
+}
+
+.field-error {
+  font-size: 0.78rem;
+  color: #dc2626;
+  margin-top: 0.3rem;
+}
+
+.form-footer {
+  display: flex;
+  justify-content: flex-end;
+  gap: 0.75rem;
+  margin-top: 1.5rem;
+  padding-top: 1.2rem;
+  border-top: 1px solid #f3f4f6;
+}
+
+.btn-cancelar {
+  background: #f3f4f6;
+  color: #374151;
+  border: none;
+  border-radius: 9px;
+  padding: 0.55rem 1.3rem;
+  font-weight: 600;
+  font-size: 0.88rem;
+  transition: background 0.15s;
+}
+
+.btn-cancelar:hover {
+  background: #e5e7eb;
+}
+
+.btn-guardar {
+  background: linear-gradient(135deg, #6366f1, #8b5cf6);
+  color: #fff;
+  border: none;
+  border-radius: 9px;
+  padding: 0.55rem 1.5rem;
+  font-weight: 600;
+  font-size: 0.88rem;
+  box-shadow: 0 4px 14px rgba(99, 102, 241, 0.35);
+  transition: opacity 0.2s, transform 0.15s;
+}
+
+.btn-guardar:hover:not(:disabled) {
+  opacity: 0.9;
+  transform: translateY(-1px);
+}
+
+.btn-guardar:disabled {
+  opacity: 0.65;
+  cursor: not-allowed;
+}

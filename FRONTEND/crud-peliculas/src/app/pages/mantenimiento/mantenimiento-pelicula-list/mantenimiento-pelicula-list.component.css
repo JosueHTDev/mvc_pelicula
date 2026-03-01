@@ -1,0 +1,201 @@
+/* ── BOTÓN AGREGAR ─────────────────────────────────────── */
+.btn-agregar {
+  background: linear-gradient(135deg, #6366f1, #8b5cf6);
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  padding: 0.55rem 1.25rem;
+  font-weight: 600;
+  font-size: 0.9rem;
+  transition: opacity 0.2s, transform 0.15s;
+  box-shadow: 0 4px 14px rgba(99, 102, 241, 0.35);
+}
+
+.btn-agregar:hover {
+  opacity: 0.92;
+  transform: translateY(-1px);
+  color: #fff;
+}
+
+/* ── CARD FILTROS ──────────────────────────────────────── */
+.card-filtros {
+  border: 1px solid #e5e7eb;
+  border-radius: 14px;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.06);
+}
+
+.input-custom {
+  border-radius: 8px;
+  border: 1px solid #d1d5db;
+  font-size: 0.9rem;
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+.input-custom:focus {
+  border-color: #6366f1;
+  box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.15);
+}
+
+/* ── CARD TABLA ────────────────────────────────────────── */
+.card-tabla {
+  border: 1px solid #e5e7eb;
+  border-radius: 14px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.07);
+  overflow: hidden;
+}
+
+/* ── TABLA ─────────────────────────────────────────────── */
+.tabla-peliculas {
+  font-size: 0.9rem;
+}
+
+.tabla-peliculas thead tr {
+  background: linear-gradient(135deg, #6366f1, #8b5cf6);
+}
+
+.tabla-peliculas thead th {
+  color: #fff;
+  font-weight: 600;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  padding: 1rem 1.1rem;
+  border: none;
+}
+
+.tabla-peliculas tbody tr {
+  border-bottom: 1px solid #f3f4f6;
+  transition: background-color 0.15s;
+}
+
+.tabla-peliculas tbody tr:hover {
+  background-color: #f5f3ff;
+}
+
+.tabla-peliculas tbody tr:last-child {
+  border-bottom: none;
+}
+
+.tabla-peliculas tbody td {
+  padding: 0.85rem 1.1rem;
+  vertical-align: middle;
+  color: #374151;
+  border: none;
+}
+
+/* ── BADGES ────────────────────────────────────────────── */
+.badge-anio {
+  background-color: #ede9fe;
+  color: #5b21b6;
+  font-size: 0.78rem;
+  font-weight: 600;
+  border-radius: 6px;
+  padding: 0.3em 0.65em;
+}
+
+.badge-genero {
+  background-color: #dbeafe;
+  color: #1d4ed8;
+  font-size: 0.78rem;
+  font-weight: 600;
+  border-radius: 6px;
+  padding: 0.3em 0.65em;
+}
+
+.duracion {
+  color: #6b7280;
+  font-size: 0.85rem;
+}
+
+/* ── BOTONES ACCIONES ──────────────────────────────────── */
+.acciones-col {
+  white-space: nowrap;
+}
+
+.btn-accion {
+  font-size: 0.78rem;
+  font-weight: 600;
+  border-radius: 8px;
+  padding: 0.35rem 0.8rem;
+  border: none;
+  transition: transform 0.15s, opacity 0.2s;
+}
+
+.btn-accion:hover {
+  transform: translateY(-1px);
+  opacity: 0.88;
+}
+
+.btn-editar {
+  background-color: #fef3c7;
+  color: #92400e;
+}
+
+.btn-editar:hover {
+  background-color: #fde68a;
+  color: #78350f;
+}
+
+.btn-eliminar {
+  background-color: #fee2e2;
+  color: #991b1b;
+}
+
+.btn-eliminar:hover {
+  background-color: #fecaca;
+  color: #7f1d1d;
+}
+
+/* ── EMPTY STATE ───────────────────────────────────────── */
+.empty-state {
+  text-align: center;
+  padding: 3rem 1rem;
+}
+
+.empty-icono {
+  font-size: 3rem;
+  margin-bottom: 0.75rem;
+}
+
+.empty-texto {
+  color: #9ca3af;
+  font-size: 1rem;
+  margin-bottom: 1.25rem;
+}
+
+/* ── MODAL OVERLAY ─────────────────────────────────────── */
+.modal-overlay {
+  position: fixed;
+  inset: 0;
+  background-color: rgba(17, 24, 39, 0.5);
+  backdrop-filter: blur(3px);
+  z-index: 1040;
+  animation: fadeIn 0.2s ease;
+}
+
+/* ── MODAL PANEL ───────────────────────────────────────── */
+.modal-panel {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: min(620px, 95vw);
+  max-height: 90vh;
+  overflow-y: auto;
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 25px 60px rgba(0, 0, 0, 0.2);
+  z-index: 1050;
+  animation: slideUp 0.25s ease;
+}
+
+/* ── ANIMACIONES ───────────────────────────────────────── */
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+@keyframes slideUp {
+  from { opacity: 0; transform: translate(-50%, -46%); }
+  to   { opacity: 1; transform: translate(-50%, -50%); }
+}

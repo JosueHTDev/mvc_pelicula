@@ -1,0 +1,77 @@
+<div class="form-wrapper">
+
+  <div class="form-header">
+    <div>
+      <h3 class="form-titulo">{{ modo() === 'editar' ? 'Editar película' : 'Nueva película' }}</h3>
+      <p class="form-subtitulo">{{ modo() === 'editar' ? 'Modifica los datos de la película' : 'Completa los campos para agregar' }}</p>
+    </div>
+    <button type="button" class="btn-cerrar" (click)="onCancelar()" title="Cerrar">✕</button>
+  </div>
+
+  <div class="form-body">
+    <form [formGroup]="form" (ngSubmit)="onGuardar()">
+
+      <div class="row g-3">
+
+        <div class="col-12">
+          <label for="titulo" class="field-label">Título <span class="required">*</span></label>
+          <input id="titulo" type="text" class="form-control field-input" formControlName="titulo" placeholder="Ej: Inception" />
+          @if (form.controls.titulo.touched && form.controls.titulo.invalid) {
+            <div class="field-error">El título es obligatorio.</div>
+          }
+        </div>
+
+        <div class="col-12">
+          <label for="director" class="field-label">Director <span class="required">*</span></label>
+          <input id="director" type="text" class="form-control field-input" formControlName="director" placeholder="Ej: Christopher Nolan" />
+          @if (form.controls.director.touched && form.controls.director.invalid) {
+            <div class="field-error">El director es obligatorio.</div>
+          }
+        </div>
+
+        <div class="col-6">
+          <label for="anioEstreno" class="field-label">Año de estreno <span class="required">*</span></label>
+          <input id="anioEstreno" type="number" class="form-control field-input" formControlName="anioEstreno" placeholder="2024" />
+          @if (form.controls.anioEstreno.touched && form.controls.anioEstreno.invalid) {
+            <div class="field-error">Año entre 1888 y 2100.</div>
+          }
+        </div>
+
+        <div class="col-6">
+          <label for="duracionMinutos" class="field-label">Duración (min) <span class="required">*</span></label>
+          <input id="duracionMinutos" type="number" class="form-control field-input" formControlName="duracionMinutos" placeholder="120" />
+          @if (form.controls.duracionMinutos.touched && form.controls.duracionMinutos.invalid) {
+            <div class="field-error">Debe ser mayor a 0.</div>
+          }
+        </div>
+
+        <div class="col-12">
+          <label for="idGeneroPelicula" class="field-label">Género <span class="required">*</span></label>
+          <select id="idGeneroPelicula" class="form-select field-input" formControlName="idGeneroPelicula">
+            <option [ngValue]="0" disabled>— Seleccione un género —</option>
+            @for (genero of generos(); track genero.id) {
+              <option [ngValue]="genero.id">{{ genero.nombreGenero }}</option>
+            }
+          </select>
+          @if (form.controls.idGeneroPelicula.touched && form.controls.idGeneroPelicula.invalid) {
+            <div class="field-error">Seleccione un género.</div>
+          }
+        </div>
+
+      </div>
+
+      <div class="form-footer">
+        <button type="button" class="btn btn-cancelar" (click)="onCancelar()">Cancelar</button>
+        <button type="submit" class="btn btn-warning" [disabled]="cargando">
+          @if (cargando) {
+            <span class="spinner-border spinner-border-sm me-2"></span> Guardando...
+          } @else {
+            {{ modo() === 'editar' ? 'Actualizar' : 'Guardar' }}
+          }
+        </button>
+      </div>
+
+    </form>
+  </div>
+
+</div>
